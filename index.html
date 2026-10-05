@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Programa de Ingeniería de Sistemas de la Universidad de la Amazonia">
+
+    <title>Ingeniería de Sistemas | Universidad de la Amazonia</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <!-- =====================================================
+                         ENCABEZADO
+    ====================================================== -->
+
+    <header class="header">
+
+        <div class="contenedor navegacion">
+
+            <a href="https://www.uniamazonia.edu.co/Inicio/index.php/es/"
+               class="logo">
+                <img src="img/logo-uniamazonia.png"
+                     alt="Universidad de la Amazonia">
+            </a>
+
+            <!-- Checkbox para controlar el menú móvil SIN JavaScript -->
+            <input type="checkbox"
+                   id="menu-toggle"
+                   class="menu-toggle">
+
+            <label for="menu-toggle"
+                   class="menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+
+            <nav class="menu">
+
+                <!-- INICIO -->
+
+                <a href="https://www.uniamazonia.edu.co/Inicio/index.php/es/"
+                   target="_blank">
+                    Inicio
+                </a>
+
+
+                <!-- PROGRAMAS -->
+
+                <a href="https://www.uniamazonia.edu.co/inicio/index.php/es/programas/pregrado/ingenieria/ingenieria-de-sistemas.html"
+                   target="_blank">
+                    Programas
+                </a>
+
+
+                <!-- CONVOCATORIAS -->
+
+                <details class="dropdown">
+
+                    <summary>Convocatorias</summary>
+
+                    <div class="submenu">
+
+                        <a href="https://www.uniamazonia.edu.co/inicio/index.php/es/convocatorias/ofertas-de-empleo.html"
+                           target="_blank">
+                            Ofertas de Empleo
+                        </a>
+
+                        <a href="https://www.uniamazonia.edu.co/inicio/index.php/es/convocatorias/invitaciones-a-contratar.html"
+                           target="_blank">
+                            Invitaciones a contratar
+                        </a>
+
+                        <a href="https://www.uniamazonia.edu.co/inicio/index.php/es/convocatorias/elecciones.html"
+                           target="_blank">
+                            Elecciones
+                        </a>
+
+                        <a href="https://chaira.uniamazonia.edu.co/GestionProveedores/Vistas/Privado/Inicio.aspx"
+                           target="_blank">
+                            Proveedores
+                        </a>
+
+                    </div>
+
+                </details>
+
+
+                <!-- INVESTIGACIÓN -->
+
+                <details class="dropdown">
+
+                    <summary>Investigación</summary>
+
+                    <div class="submenu">
+
+                        <a href="https://www.uniamazonia.edu.co/inicio/index.php/es/investigacion/grupos-de-investigacion.html"
+                           target="_blank">
+                            Grupos de investigación
+                        </a>
+
+                        <a href="https://editorial.uniamazonia.edu.co/index/es"
+                           target="_blank">
+                            Nuestras revistas
+                        </a>
+
+                        <a href="https://www.uniamazonia.edu.co/inicio/index.php/es/investigacion/convocatorias.html"
+                           target="_blank">
+                            Convocatorias
+                        </a>
+
+                        <a href="https://www.uniamazonia.edu.co/inicio/index.php/es/investigacion/laboratorios-e-infraestructura.html"
+                           target="_blank">
+                            Laboratorios e Infraestructura
+                        </a>
+
+                        <a href="https://chaira.uniamazonia.edu.co/sigepi/Default.aspx"
+                           target="_blank">
+                            SIGEPI
+                        </a>
+
+                        <a href="https://minciencias.gov.co/convocatorias/todas"
+                           target="_blank">
+                            Convocatorias Minciencias
+                        </a>
+
+                    </div>
+
+                </details>
+
+
+                <!-- SEDES -->
+
+                <details class="dropdown">
+
+                    <summary>Sedes</summary>
+
+                    <div class="submenu">
+
+                        <a href="https://www.uniamazonia.edu.co/inicio/index.php/es/sedes/sede-guaviare.html"
+                           target="_blank">
+                            Sede Guaviare
+                        </a>
+
+                        <a href="https://www.uniamazonia.edu.co/inicio/index.php/es/sedes/sede-putumayo.html"
+                           target="_blank">
+                            Sede Putumayo
+                        </a>
+
+                        <a href="https://www.uniamazonia.edu.co/inicio/index.php/es/sedes/sede-leticia.html"
+                           target="_blank">
+                            Sede Leticia
+                        </a>
+
+                    </div>
+
+                </details>
+
+
+                <!-- NOTICIAS -->
+
+                <a href="https://www.uniamazonia.edu.co/inicio/index.php/es/servicios-de-informacion/noticias-y-eventos.html"
+                   target="_blank">
+                    Noticias y eventos
+                </a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <!-- =====================================================
+                    PORTADA / HERO
+    ====================================================== -->
+
+    <main>
+
+        <section class="hero">
+
+            <div class="decoracion decoracion-1"></div>
+            <div class="decoracion decoracion-2"></div>
+
+            <div class="contenedor hero-contenido">
+
+                <div class="hero-texto">
+
+                    <span class="etiqueta">
+                        Facultad de Ingeniería
+                    </span>
+
+                    <h1>
+                        Ingeniería
+                        <span>de Sistemas</span>
+                    </h1>
+
+                    <p>
+                        Forma parte de una generación preparada para
+                        crear, innovar y transformar el entorno mediante
+                        la tecnología.
+                    </p>
+
+                    <div class="hero-botones">
+
+                        <a href="#programa"
+                           class="boton boton-principal">
+                            Conoce el programa
+                        </a>
+
+                        <a href="#plan-estudios"
+                           class="boton boton-secundario">
+                            Plan de estudios
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Elemento decorativo tecnológico -->
+
+                <div class="hero-visual">
+
+                    <div class="codigo">
+
+                        <div class="codigo-superior">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <div class="codigo-contenido">
+
+                            <p>
+                                <span class="rojo">&lt;</span>ingenieria
+                                <span class="rojo">&gt;</span>
+                            </p>
+
+                            <p class="sangria">
+                                tecnología
+                            </p>
+
+                            <p class="sangria">
+                                innovación
+                            </p>
+
+                            <p class="sangria">
+                                futuro
+                            </p>
+
+                            <p>
+                                <span class="rojo">&lt;/</span>ingenieria
+                                <span class="rojo">&gt;</span>
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+                         DATOS DEL PROGRAMA
+        ====================================================== -->
+
+        <section class="datos"
+                 id="programa">
+
+            <div class="contenedor">
+
+                <div class="titulo-seccion">
+
+                    <span>Conoce nuestra carrera</span>
+
+                    <h2>Información del programa</h2>
+
+                    <p>
+                        Prepárate para convertir ideas en soluciones
+                        tecnológicas que generen impacto.
+                    </p>
+
+                </div>
+
+
+                <div class="grid-datos">
+
+                    <article class="dato">
+                        <div class="dato-icono">🎓</div>
+                        <h3>Título</h3>
+                        <p>Ingeniero de Sistemas</p>
+                    </article>
+
+
+                    <article class="dato">
+                        <div class="dato-icono">🏫</div>
+                        <h3>Modalidad</h3>
+                        <p>Presencial</p>
+                    </article>
+
+
+                    <article class="dato">
+                        <div class="dato-icono">☀️</div>
+                        <h3>Jornada</h3>
+                        <p>Diurna</p>
+                    </article>
+
+
+                    <article class="dato">
+                        <div class="dato-icono">📅</div>
+                        <h3>Duración</h3>
+                        <p>10 semestres</p>
+                    </article>
+
+
+                    <article class="dato">
+                        <div class="dato-icono">📚</div>
+                        <h3>Créditos</h3>
+                        <p>178 créditos</p>
+                    </article>
+
+
+                    <article class="dato">
+                        <div class="dato-icono">💻</div>
+                        <h3>SNIES</h3>
+                        <p>52384</p>
+                    </article>
+
+                </div>
+
+
+                <div class="ubicacion-programa">
+
+                    <span>📍</span>
+
+                    <div>
+                        <strong>Lugar de desarrollo</strong>
+                        <p>
+                            Florencia, Caquetá — Campus Florencia,
+                            barrio El Porvenir.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+                      INFORMACIÓN / ACORDEONES
+        ====================================================== -->
+
+        <section class="informacion">
+
+            <div class="contenedor">
+
+                <div class="titulo-seccion">
+
+                    <span>Descubre más</span>
+
+                    <h2>Ingeniería que transforma</h2>
+
+                    <p>
+                        Conoce la filosofía, formación y oportunidades
+                        que ofrece nuestro programa.
+                    </p>
+
+                </div>
+
+
+                <div class="acordeones">
+
+
+                    <!-- PROPÓSITO -->
+
+                    <details class="acordeon">
+
+                        <summary>
+                            <span class="numero">01</span>
+
+                            <span class="nombre">
+                                Propósito de formación
+                            </span>
+
+                            <span class="mas">+</span>
+                        </summary>
+
+                        <div class="contenido-acordeon">
+
+                            <p>
+                                El Programa Ingeniería de Sistemas de la
+                                Universidad de la Amazonia, tiene como
+                                principal propósito, desarrollar procesos
+                                de formación integral de profesionales de
+                                la Ingeniería de Sistemas, mediante el
+                                desarrollo de un currículo que aborda los
+                                conocimientos propios de las ciencias
+                                básicas, la ingeniería, el campo
+                                tecnológico, investigativo, socio-humanista
+                                y de formación complementaria, que le
+                                permitirá ser capaz de interactuar con su
+                                entorno e incidir positivamente en él,
+                                mediante la creación, innovación y
+                                aplicación de soluciones computacionales
+                                soportadas en las Tecnologías de la
+                                Información y la Comunicación, que
+                                contribuyan al fortalecimiento y progreso
+                                económico, social, tecnológico y sustentable
+                                de la región Amazónica y el país.
+                            </p>
+
+                        </div>
+
+                    </details>
+
+
+                    <!-- MISIÓN Y VISIÓN -->
+
+                    <details class="acordeon">
+
+                        <summary>
+
+                            <span class="numero">02</span>
+
+                            <span class="nombre">
+                                Misión y Visión
+                            </span>
+
+                            <span class="mas">+</span>
+
+                        </summary>
+
+                        <div class="contenido-acordeon">
+
+                            <h3>Misión</h3>
+
+                            <p>
+                                El programa académico Ingeniería de Sistemas
+                                de la Universidad de la Amazonia, asume como
+                                encargo social la formación de profesionales
+                                íntegros, con capacidad para crear, innovar,
+                                formular y solucionar problemáticas
+                                organizacionales y productivas, apoyados en
+                                el desarrollo de sistemas de información
+                                soportados en las diferentes tecnologías
+                                informáticas, con el propósito de contribuir
+                                al desarrollo social, económico y tecnológico
+                                de la región amazónica y del país.
+                            </p>
+
+                            <h3>Visión</h3>
+
+                            <p>
+                                Ingeniería de Sistemas será un programa
+                                académico en permanente acreditación
+                                académica y social, líder en la formación
+                                integral de profesionales, competentes en
+                                el campo académico, investigativo y
+                                humanístico; comprometidos con el desarrollo
+                                tecnológico de la región amazónica y del
+                                país apoyados en tecnologías de información.
+                            </p>
+
+                        </div>
+
+                    </details>
+
+
+                    <!-- PERFIL -->
+
+                    <details class="acordeon">
+
+                        <summary>
+
+                            <span class="numero">03</span>
+
+                            <span class="nombre">
+                                Perfil de egreso
+                            </span>
+
+                            <span class="mas">+</span>
+
+                        </summary>
+
+                        <div class="contenido-acordeon">
+
+                            <p>
+                                El Ingeniero de Sistemas de la Universidad
+                                de la Amazonia es un profesional que
+                                comprende las dinámicas del entorno,
+                                reconociendo las implicaciones y las
+                                responsabilidades legales, profesionales,
+                                éticas, sociales, económicas y culturales
+                                del ejercicio de su profesión.
+                            </p>
+
+                            <p>
+                                Así mismo, reconoce que la evolución
+                                constante de su disciplina y las condiciones
+                                cambiantes del entorno hacen necesario
+                                implementar estrategias autónomas de
+                                aprendizaje continuo, orientados a su
+                                perfeccionamiento profesional.
+                            </p>
+
+                        </div>
+
+                    </details>
+
+
+                    <!-- PLAN -->
+
+                    <details class="acordeon"
+                             id="plan-estudios">
+
+                        <summary>
+
+                            <span class="numero">04</span>
+
+                            <span class="nombre">
+                                Plan de estudios
+                            </span>
+
+                            <span class="mas">+</span>
+
+                        </summary>
+
+                        <div class="contenido-acordeon">
+
+                            <h3>
+                                Acuerdo 44 del 02 de diciembre de 2020
+                            </h3>
+
+                            <p>
+                                Por el cual se aprueba el nuevo plan de
+                                estudios y el plan de transición del
+                                programa académico de Ingeniería de
+                                Sistemas.
+                            </p>
+
+                            <a class="boton-documento"
+                               href="https://www.uniamazonia.edu.co/documentos/docs/Consejo%20Academico/Acuerdos/2020/Acuerdo%2044%20Plan%20de%20Estudios%20de%20Ingenieria%20de%20Sistemas.pdf"
+                               target="_blank">
+
+                                Ver plan de estudios ↗
+
+                            </a>
+
+                        </div>
+
+                    </details>
+
+
+                    <!-- CONTACTO -->
+
+                    <details class="acordeon">
+
+                        <summary>
+
+                            <span class="numero">05</span>
+
+                            <span class="nombre">
+                                Contacto
+                            </span>
+
+                            <span class="mas">+</span>
+
+                        </summary>
+
+                        <div class="contenido-acordeon contacto">
+
+                            <div>
+                                <strong>
+                                    Coordinadora del programa
+                                </strong>
+
+                                <p>
+                                    Paula Andrea Chica Murcia
+                                </p>
+                            </div>
+
+
+                            <div>
+                                <strong>Teléfono</strong>
+
+                                <p>
+                                    <a href="tel:+573204541936">
+                                        320 454 1936
+                                    </a>
+                                </p>
+                            </div>
+
+
+                            <div>
+                                <strong>Correo electrónico</strong>
+
+                                <p>
+                                    <a href="mailto:pisistemas@uniamazonia.edu.co">
+                                        pisistemas@uniamazonia.edu.co
+                                    </a>
+                                </p>
+                            </div>
+
+
+                            <div>
+                                <strong>Ubicación</strong>
+
+                                <p>
+                                    Florencia - Caquetá, Campus Florencia,
+                                    barrio El Porvenir, bloque administrativo,
+                                    primer piso.
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </details>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+                         ACCESOS RÁPIDOS
+        ====================================================== -->
+
+        <section class="accesos">
+
+            <div class="contenedor">
+
+                <div class="titulo-seccion titulo-claro">
+
+                    <span>Servicios universitarios</span>
+
+                    <h2>Todo a un clic</h2>
+
+                    <p>
+                        Accede rápidamente a las plataformas que utilizas
+                        en tu vida universitaria.
+                    </p>
+
+                </div>
+
+
+                <div class="grid-accesos">
+
+
+                    <!-- CHAIRA -->
+
+                    <a href="https://chaira.uniamazonia.edu.co/Chaira/Logon.aspx"
+                       target="_blank"
+                       class="acceso">
+
+                        <div class="acceso-icono">👤</div>
+
+                        <div>
+                            <h3>Chairá</h3>
+                            <p>Plataforma institucional</p>
+                        </div>
+
+                        <span class="flecha">↗</span>
+
+                    </a>
+
+
+                    <!-- OUTLOOK -->
+
+                    <a href="https://www.microsoft.com/es-co/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook"
+                       target="_blank"
+                       class="acceso">
+
+                        <div class="acceso-icono">✉</div>
+
+                        <div>
+                            <h3>Outlook</h3>
+                            <p>Correo electrónico</p>
+                        </div>
+
+                        <span class="flecha">↗</span>
+
+                    </a>
+
+
+                    <!-- AULA EXTENDIDA -->
+
+                    <a href="https://aulaextendida.uniamazonia.edu.co/aulaextendida/"
+                       target="_blank"
+                       class="acceso">
+
+                        <div class="acceso-icono">💻</div>
+
+                        <div>
+                            <h3>Aula Extendida</h3>
+                            <p>Campus virtual</p>
+                        </div>
+
+                        <span class="flecha">↗</span>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =====================================================
+                            FOOTER
+    ====================================================== -->
+
+    <footer class="footer">
+
+        <div class="contenedor footer-contenido">
+
+            <div class="footer-logo">
+
+                <img src="img/logo-uniamazonia.png"
+                     alt="Universidad de la Amazonia">
+
+                <p>
+                    Programa de Ingeniería de Sistemas
+                </p>
+
+            </div>
+
+
+            <div class="footer-texto">
+
+                <p>
+                    Universidad de la Amazonia
+                </p>
+
+                <p>
+                    Florencia, Caquetá — Colombia
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-inferior">
+
+            <p>
+                Ingeniería de Sistemas · Universidad de la Amazonia
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
